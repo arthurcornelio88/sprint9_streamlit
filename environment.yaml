@@ -8,18 +8,18 @@ dependencies:
   - numpy=1.26.4
   - seaborn
   - scikit-learn
-  - matplotlib  # Avoid mixing matplotlib-base and matplotlib
   - streamlit
   - pip:
-      - gitpython
-      - pyarrow
-      - joblib
-      - contourpy
-      - cycler
-      - fonttools
-      - pillow
-      - pyparsing
-      - protobuf
-      - tenacity
-      - watchdog
-      - typing-extensions
+    - matplotlib
+    - gitpython
+    - pyarrow
+    - joblib
+    - contourpy
+    - cycler
+    - fonttools
+    - pillow
+    - pyparsing
+    - protobuf
+    - tenacity
+    - watchdog
+    - typing-extensions
